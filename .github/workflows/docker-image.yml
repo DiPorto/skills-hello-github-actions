@@ -18,7 +18,7 @@ jobs:
     steps:
       # клонування репозиторію
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       # встановлення pnpm, залежностей і збірка в одному скрипті
       - name: Install pnpm & build
